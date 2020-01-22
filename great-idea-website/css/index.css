@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav a {
+	color: gray;
+
+}
+
+header {
+	font-size: 40px;
+}
+
+img src {
+	float: right;
+}
+
+
+.logo {
+	float: right;
+}

@@ -67,18 +67,44 @@ h1, h2, h3, h4, h5 {
 
 nav a {
 	color: gray;
+	box-sizing: content-box;
+	padding: 2pt;
 
 }
-
-header {
-	font-size: 40px;
-}
-
-img src {
-	float: right;
-}
-
 
 .logo {
 	float: right;
+}
+
+.header-left {
+	display: inline-block;
+	padding: 75px;
+	text-align: center;
+	width: 49%;
+	font-size: 75px;
+}
+
+.header-left button:hover {
+	color: blueviolet;
+	border: 1.5px solid gold;
+}
+
+.header-left button {
+	margin: auto;
+	padding: 8px;
+}
+
+.header-right {
+	float: right;
+	position: relative;
+}
+
+.main-content {
+	display: inline-block;
+	border: solid brown;
+	margin: 25%;
+}
+
+button {
+	box-sizing: content-box;
 }

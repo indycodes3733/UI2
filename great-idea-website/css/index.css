@@ -116,10 +116,17 @@ button {
 }
 
 .main-content {
-	display: inline-block;
+	border: 25px;
+	padding: 75px;
+	margin: 25px;
+	display: inline-flex;
+	text-align: start;
+	
+}
+
+h2 {
 	padding: 20px;
-	margin: 15px;
-	width: auto;
+	margin: 10px;
 }
 
 

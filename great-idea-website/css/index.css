@@ -129,6 +129,15 @@ h2 {
 	margin: 10px;
 }
 
+.other-content {
+	border: 25px;
+	padding: 75px;
+	margin: 25px;
+	display: inline-flex;
+	text-align: start;
+
+}
+
 
 
 footer {

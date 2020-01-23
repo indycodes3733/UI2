@@ -138,6 +138,10 @@ h2 {
 
 }
 
+body {
+	border: transparent;
+}
+
 
 
 footer {
@@ -146,4 +150,8 @@ footer {
 
 .contact {
 	padding: 10px;
+	display: inline-block;
+	margin: 25px;
+	width: 150px;
+
 }
